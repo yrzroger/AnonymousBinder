@@ -1,7 +1,8 @@
-# android-binder-native-helloworld
+# android-binder-test
+# 匿名Binder 的使用
 build binder service based on Android Native Service Framework
 
-匿名Binder 的使用
+
 
 工程简介：
 在Android平台中，Service Framework大致由两大部分构成，一部分是使用C++语言编写的本地服务框架，另一部分是使用Java语言编写的Java服务框架。该工程基于本地服务框架写作了HelloWorldService，基于Binder IPC机制实现Android平台中的进程间通信。
